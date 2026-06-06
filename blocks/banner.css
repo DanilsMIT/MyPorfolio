@@ -1,0 +1,147 @@
+.presentation {
+  position: relative;
+  overflow: hidden;
+  padding: 100px 20px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.presentation__bg-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.presentation__contenedor-imagenes {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  transition: transform 0.5s ease-in-out;
+}
+
+.presentation__slide {
+  min-width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.presentation__slide-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.presentation__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.8)
+  );
+  z-index: 1;
+}
+
+.presentation__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.presentation__arrow:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #ffffff;
+}
+
+.presentation__arrow--left {
+  left: 20px;
+}
+
+.presentation__arrow--right {
+  right: 20px;
+}
+
+.presentation__container {
+  position: relative;
+  z-index: 2;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.presentation__text {
+  flex: 1;
+}
+
+.presentation__title {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+  letter-spacing: -0.5px;
+}
+
+.presentation__subtitle {
+  font-size: 1.5rem;
+  color: #e5e5ea;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.presentation__description {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.presentation__image img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.presentation__links {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+}
+
+@media (max-width: 768px) {
+  .presentation__container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .presentation__links {
+    justify-content: center;
+  }
+
+  .about__main-text {
+    text-align: left;
+  }
+}

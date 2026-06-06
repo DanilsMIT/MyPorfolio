@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danilo Isaac Portafolio Web</title>
+    <link rel="icon" href="./imagenes/ico.png" />
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body>
+    <header class="presentation">
+      <div class="presentation__bg-wrapper">
+        <ul
+          id="presentation__contenedor-imagenes"
+          class="presentation__contenedor-imagenes"
+        >
+          <li class="presentation__slide">
+            <img
+              class="presentation__slide-img"
+              src="./imagenes/wallpaper.jpeg"
+              alt="JS 30"
+            />
+          </li>
+        </ul>
+      </div>
+
+      <div class="presentation__overlay"></div>
+
+      <div class="presentation__container">
+        <div class="presentation__image">
+          <img
+            class="presentation__img"
+            src="./imagenes/DME.png"
+            alt="Foto de Danilo Isaac"
+          />
+        </div>
+        <div class="presentation__text">
+          <h1 class="presentation__title">Hola, soy Danilo Isaac</h1>
+          <h2 class="presentation__subtitle">Desarrollador Web</h2>
+          <p class="presentation__description">
+            Construyendo interfaces intuitivas y centradas en el usuario.
+            Combino habilidades técnicas sólidas con comunicación empática para
+            transformar ideas en soluciones reales y efectivas.
+          </p>
+          <div class="presentation__links">
+            <a
+              href="https://github.com/DanilsMIT"
+              target="_blank"
+              class="btn btn--outline"
+              >GitHub</a
+            >
+            <a
+              href="https://linkedin.com/in/daniloisaacmelgar"
+              target="_blank"
+              class="btn btn--primary"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="about">
+      <div class="about__container">
+        <h2 class="about__title">Sobre Mí</h2>
+
+        <div class="about__content">
+          <p class="about__paragraph about__paragraph-header">
+            💻
+            <strong>Estudiante de Desarrollo Web Full Stack</strong>
+            (TripleTen) | 🛡️
+            <strong>Especialización en Ciberseguridad</strong> (Saint Leo
+            University)
+          </p>
+          <div class="about__main-text">
+            <p class="about__paragraph">
+              Me apasiona el desarrollo web y la creación de aplicaciones con
+              interfaces visualmente fluidas. Mi meta es ser un experto total en
+              el área, siempre enfocado en mejorar la experiencia del usuario.
+              Además, conozco los conceptos básicos de ciberseguridad y me
+              interesa profundamente la protección de la privacidad de los
+              datos.
+            </p>
+            <p class="about__paragraph">
+              En mi afán de aprendizaje continuo, me considero un estudiante
+              diligente y adaptable. Utilizo la Inteligencia Artificial (Prompt
+              Engineering: Rol, Contexto, Resultado) como herramienta clave para
+              para mi aprendizaje continuo.
+            </p>
+          </div>
+
+          <div class="about__details">
+            <div class="about__card">
+              <h3 class="about__card-title">
+                👥 Gestión Estratégica y Clientes
+              </h3>
+              <p class="about__card-text">
+                Tengo experiencia liderando equipos principiantes, asignando
+                roles estratégicos según sus capacidades. Mis años en ventas de
+                materiales de construcción me permiten abrir charlas de
+                confianza para comprender exactamente las necesidades de cada
+                cliente.
+              </p>
+            </div>
+            <div class="about__card">
+              <h3 class="about__card-title">💻 Stack y Buenas Prácticas</h3>
+              <p class="about__card-text">
+                En mis proyectos utilizo
+                <strong>HTML5, CSS3, JavaScript (POO) y APIs REST</strong>. Para
+                generar código escalable y organizado, aplico la metodología
+                BEM, manipulación eficiente del DOM y clases, logrando un código
+                limpio y reutilizable.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main class="projects">
+      <h2 class="projects__title">Proyectos Destacados</h2>
+
+      <ul id="projects-container" class="projects__grid"></ul>
+    </main>
+
+    <template id="bg-slider-template">
+      <li class="presentation__slide">
+        <img class="presentation__slide-img" src="" alt="Fondo JS 30" />
+      </li>
+    </template>
+
+    <template id="project-card-template">
+      <li class="card">
+        <div class="card__image">
+          <a href="#" target="_blank" class="card__img-link">
+            <img
+              class="card__img"
+              src="./imagenes/miniaturasProyectos/rory.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="card__content">
+          <h3 class="card__title"></h3>
+          <p class="card__desc"></p>
+          <ul class="card__tags"></ul>
+          <div class="card__actions">
+            <a href="#" target="_blank" class="card__link card__link--repo"
+              >Código Fuente</a
+            >
+            <a href="#" target="_blank" class="card__link card__link--demo"
+              >Ver Proyecto</a
+            >
+          </div>
+        </div>
+      </li>
+    </template>
+    <template id="tag-template">
+      <li class="card__tag"></li>
+    </template>
+
+    <footer class="footer">
+      <p class="footer__text">Desarrollado por Danilo Isaac</p>
+      <p class="footer__text">
+        daniloisaacdm@gmail.com
+        <a
+          href="https://wa.me/593994179193"
+          class="footer__link"
+          target="_blank"
+          >+593 994179193</a
+        >
+      </p>
+      <p class="footer__text">USA | Latinoamerica | Ecuador</p>
+      <p class="footer__text">
+        <a
+          class="footer__link"
+          target="_blank"
+          href="https://github.com/DanilsMIT/MyPorfolio.git"
+          >Repositorio de este Portafolio</a
+        >
+      </p>
+    </footer>
+
+    <script type="module" src="./pages/index.js"></script>
+  </body>
+</html>

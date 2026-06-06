@@ -1,0 +1,9 @@
+/* --- RESET --- */
+@import url("../blocks/reset.css");
+
+/* --- BLOQUES --- */
+@import url("../blocks/banner.css");
+@import url("../blocks/aboutMe.css");
+@import url("../blocks/card.css");
+@import url("../blocks/btnContacto.css");
+@import url("../blocks/footer.css");

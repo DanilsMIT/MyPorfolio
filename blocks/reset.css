@@ -1,0 +1,28 @@
+/* --- VARIABLES Y RESET (MODO OSCURO) --- */
+:root {
+  --bg-color: #121212; /* Gris muy oscuro para el fondo principal */
+  --card-bg: #302d2d; /* Gris oscuro un poco más claro para las tarjetas */
+  --text-main: #e5e5ea; /* Blanco suave para que el texto sea muy legible */
+  --text-muted: #9e9e9e; /* Gris medio para textos secundarios y etiquetas */
+  --accent-color: #ffffff; /* Blanco puro para enlaces y botones al hacer hover */
+  --border-color: #333333; /* Líneas divisorias sutiles */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  background-color: black;
+  color: var(--text-main);
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+}
