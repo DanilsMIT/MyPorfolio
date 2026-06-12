@@ -1,0 +1,16 @@
+.projects {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+}
+.projects__title {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
