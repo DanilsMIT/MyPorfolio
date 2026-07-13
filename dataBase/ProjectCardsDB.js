@@ -13,9 +13,9 @@ const projectsDB = [
   {
     title: "Sistema de Gestión Visual de Inventario",
     description:
-      "Interfaz web diseñada específicamente para el negocio local 'La Casa del Cielo Raso', orientada a agilizar la localización y actualización de productos en el almacén.",
+      "Interfaz web full-stack diseñada específicamente para el negocio local 'La Casa del Cielo Raso', orientada a agilizar la localización, control y actualización de productos en el almacén mediante una base de datos en la nube.",
     achievement:
-      "Digitalicé el seguimiento de productos mediante una tabla interactiva. Diseñé una solución centrada en la visualización que facilita reconocer la ubicación de los artículos, implementando un PopUp que amplía la fotografía de cada elemento dentro del local.",
+      "Digitalicé el inventario integrando una API REST con Firebase Realtime Database para el manejo y sincronización de datos (CRUD). Además, diseñé una solución centrada en la experiencia de usuario, implementando un PopUp interactivo que amplía la fotografía de cada elemento para facilitar su reconocimiento físico en el local.",
     image: "./imagenes/miniaturasProyectos/LCSRMiniatura.png",
     demoUrl: "https://danilsmit.github.io/LCSR-Inventory/",
     repoUrl: "https://github.com/DanilsMIT/LCSR-Inventory.git",
@@ -23,7 +23,7 @@ const projectsDB = [
       "HTML5",
       "CSS3",
       "JavaScript",
-      "Supabase",
+      "Firebase",
       "POO",
       "API REST",
     ],
