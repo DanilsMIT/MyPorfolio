@@ -33,7 +33,7 @@ const projectsDB = [
     description:
       "Versión refactorizada en React de la plataforma interactiva para compartir y gestionar tarjetas fotográficas, estructurada con una arquitectura basada en componentes funcionales.",
     achievement:
-      "Migré el proyecto original de JavaScript puro a React utilizando Vite. Implementé hooks para la gestión del estado y la interfaz de usuario, manteniendo la integración fluida con una API REST externa sin necesidad de enrutadores adicionales.",
+      "Eh migrado el proyecto original de JavaScript puro a React utilizando Vite. Implementé hooks para la gestión del estado y la interfaz de usuario, manteniendo la integración fluida con una API REST externa sin necesidad de enrutadores adicionales.",
     image: "./imagenes/miniaturasProyectos/aroundReactMiniatura.png",
     demoUrl: "https://danilsmit.github.io/web_project_around_react/",
     repoUrl: "https://github.com/DanilsMIT/web_project_around_react.git",
