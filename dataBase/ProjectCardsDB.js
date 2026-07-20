@@ -29,6 +29,17 @@ const projectsDB = [
     ],
   },
   {
+    title: "Aplicación Web Around the US (React)",
+    description:
+      "Versión refactorizada en React de la plataforma interactiva para compartir y gestionar tarjetas fotográficas, estructurada con una arquitectura basada en componentes funcionales.",
+    achievement:
+      "Migré el proyecto original de JavaScript puro a React utilizando Vite. Implementé hooks para la gestión del estado y la interfaz de usuario, manteniendo la integración fluida con una API REST externa sin necesidad de enrutadores adicionales.",
+    image: "./imagenes/miniaturasProyectos/aroundReactMiniatura.png",
+    demoUrl: "https://danilsmit.github.io/web_project_around_react/",
+    repoUrl: "https://github.com/DanilsMIT/web_project_around_react.git",
+    technologies: ["React", "Vite", "JavaScript", "API REST", "HTML5", "CSS3"],
+  },
+  {
     title: "JavaScript 30 Days",
     description:
       "Construcción de 30 mini-aplicaciones web dinámicas e interactivas en 30 días, enfocadas en el dominio completo del ecosistema del navegador sin depender de librerías externas.",
