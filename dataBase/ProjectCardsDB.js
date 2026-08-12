@@ -59,6 +59,17 @@ const projectsDB = [
       "POO diseñados",
     ],
   },
+  {
+    title: "AquaPaw Web",
+    description:
+      "Landing page interactiva desarrollada para la presentación y promoción de un producto tecnológico, enfocada en brindar una experiencia de usuario inmersiva.",
+    achievement:
+      "Implementé animaciones avanzadas y un scroll ultra suave integrando las librerías GSAP y Lenis, logrando una navegación moderna y de alto impacto visual.",
+    image: "./imagenes/miniaturasProyectos/aquaPawMiniatura.png",
+    demoUrl: "https://danilsmit.github.io/AquaPawWeb/",
+    repoUrl: "https://github.com/DanilsMIT/AquaPawWeb",
+    technologies: ["HTML5", "CSS3", "JavaScript", "GSAP", "Lenis"],
+  },
 ];
 
 export default projectsDB;
