@@ -70,6 +70,25 @@ const projectsDB = [
     repoUrl: "https://github.com/DanilsMIT/AquaPawWeb",
     technologies: ["HTML5", "CSS3", "JavaScript", "GSAP", "Lenis"],
   },
+  {
+    title: "News Explorer Full Stack",
+    description:
+      "Explorador interactivo de noticias que permite a los usuarios buscar artículos recientes mediante una API de terceros, registrar una cuenta personal y gestionar sus noticias favoritas en una base de datos en la nube.",
+    achievement:
+      "Desarrollé la arquitectura completa del proyecto. Construí una API REST propia con Node.js y Express, implementando autenticación segura mediante JWT y MongoDB. En el frontend, utilicé React y Vite manejando estados globales y rutas protegidas, logrando el despliegue a producción de ambos entornos usando Vercel y Render.",
+    image: "./imagenes/miniaturasProyectos/newsExplorerMiniatura.png",
+    demoUrl: "https://news-explorer-8gqlfx65c-aten7.vercel.app",
+    repoUrl: "https://github.com/DanilsMIT/news-explorer-frontend",
+    technologies: [
+      "React",
+      "Vite",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "API REST",
+    ],
+  },
 ];
 
 export default projectsDB;
