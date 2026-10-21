@@ -77,7 +77,7 @@ const projectsDB = [
     achievement:
       "Desarrollé la arquitectura completa del proyecto. Construí una API REST propia con Node.js y Express, implementando autenticación segura mediante JWT y MongoDB. En el frontend, utilicé React y Vite manejando estados globales y rutas protegidas, logrando el despliegue a producción de ambos entornos usando Vercel y Render.",
     image: "./imagenes/miniaturasProyectos/newsExplorerMiniatura.png",
-    demoUrl: "https://news-explorer-8gqlfx65c-aten7.vercel.app",
+    demoUrl: "https://news-explorer-psi.vercel.app",
     repoUrl: "https://github.com/DanilsMIT/news-explorer-frontend",
     technologies: [
       "React",
