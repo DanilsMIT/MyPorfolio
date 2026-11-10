@@ -1,0 +1,139 @@
+{
+  "hero": {
+    "title": "Hi, I'm Danilo Isaac",
+    "subtitle": "Full-Stack Web Developer",
+    "description": "Building intuitive, user-centric interfaces. I combine solid technical skills with empathetic communication to transform ideas into effective, real-world solutions.",
+    "buttons": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "header_html": "💻 <strong>Full-Stack Web Development Student</strong> (TripleTen) | 🛡️ <strong>Cybersecurity Specialization</strong> (Saint Leo University)",
+    "p1": "I am passionate about web development and building applications with visually fluid interfaces. My goal is to become an absolute expert in the field, always focused on enhancing the user experience. Additionally, I have a solid foundation in cybersecurity and a deep interest in data privacy protection.",
+    "p2": "Driven by continuous learning, I consider myself a diligent and adaptable student. I actively leverage Artificial Intelligence (Prompt Engineering: Role, Context, Result) as a key tool to accelerate my technical growth.",
+    "card1_title": "👥 Strategic & Client Management",
+    "card1_text": "I have experience leading junior teams and assigning strategic roles based on their capabilities. My background in sales allows me to build trust and communicate effectively to deeply understand each client's specific needs.",
+    "card2_title": "💻 Tech Stack & Best Practices",
+    "card2_text_html": "In my projects, I use <strong>HTML5, CSS3, JavaScript (OOP), and REST APIs</strong>. To ensure scalable and organized architecture, I apply the BEM methodology, efficient DOM manipulation, and class-based structures, resulting in clean and reusable code."
+  },
+  "projects": {
+    "section_title": "Featured Projects",
+    "list": [
+      {
+        "title": "News Explorer Full Stack",
+        "description": "Interactive news explorer that allows users to search for recent articles via a third-party API, register a personal account, and manage their favorite news in a cloud database.",
+        "achievement": "Developed the complete project architecture. Built a custom REST API with Node.js and Express, implementing secure authentication using JWT and MongoDB. On the frontend, I used React and Vite handling global states and protected routes, successfully deploying both environments to production using Vercel and Render.",
+        "image": "/imagenes/miniaturasProyectos/newsExplorerMiniatura.png",
+        "demoUrl": "https://news-explorer-psi.vercel.app",
+        "repoUrl": "https://github.com/DanilsMIT/news-explorer-frontend",
+        "technologies": [
+          "React",
+          "Vite",
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "JWT",
+          "REST API"
+        ],
+        "buttons": {
+          "repo": "Source Code",
+          "demo": "Live Demo"
+        }
+      },
+      {
+        "title": "Around the US Web App (React)",
+        "description": "Refactored React version of the interactive platform for sharing and managing photo cards, structured with a functional component-based architecture.",
+        "achievement": "Migrated the original pure JavaScript project to React using Vite. Implemented hooks for state and UI management, maintaining seamless integration with an external REST API without the need for additional routers.",
+        "image": "/imagenes/miniaturasProyectos/aroundReactMiniatura.png",
+        "demoUrl": "https://danilsmit.github.io/web_project_around_react/",
+        "repoUrl": "https://github.com/DanilsMIT/web_project_around_react.git",
+        "technologies": [
+          "React",
+          "Vite",
+          "JavaScript",
+          "REST API",
+          "HTML5",
+          "CSS3"
+        ],
+        "buttons": {
+          "repo": "Source Code",
+          "demo": "Live Demo"
+        }
+      },
+      {
+        "title": "AquaPaw Web",
+        "description": "Interactive landing page developed for the presentation and promotion of a tech product, focused on delivering an immersive user experience.",
+        "achievement": "Implemented advanced animations and ultra-smooth scrolling by integrating GSAP and Lenis libraries, achieving modern navigation with high visual impact.",
+        "image": "/imagenes/miniaturasProyectos/aquaPawMiniatura.png",
+        "demoUrl": "https://danilsmit.github.io/AquaPawWeb/",
+        "repoUrl": "https://github.com/DanilsMIT/AquaPawWeb",
+        "technologies": ["HTML5", "CSS3", "JavaScript", "GSAP", "Lenis"],
+        "buttons": {
+          "repo": "Source Code",
+          "demo": "Live Demo"
+        }
+      },
+      {
+        "title": "Visual Inventory Management System",
+        "description": "Full-stack web interface custom-designed for a local business ('La Casa del Cielo Raso'), aimed at streamlining product location, tracking, and updating in the warehouse via a cloud database.",
+        "achievement": "Digitized the inventory by integrating a REST API with Firebase Realtime Database for data management and synchronization (CRUD). Designed a UX-centric solution, implementing an interactive pop-up that enlarges product photos to facilitate physical recognition in-store.",
+        "image": "/imagenes/miniaturasProyectos/LCSRMiniatura.png",
+        "demoUrl": "https://danilsmit.github.io/LCSR-Inventory/",
+        "repoUrl": "https://github.com/DanilsMIT/LCSR-Inventory.git",
+        "technologies": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Firebase",
+          "OOP",
+          "REST API"
+        ],
+        "buttons": {
+          "repo": "Source Code",
+          "demo": "Live Demo"
+        }
+      },
+      {
+        "title": "JavaScript 30 Days",
+        "description": "Built 30 dynamic and interactive web mini-applications in 30 days, focused on full mastery of the browser ecosystem without relying on external libraries.",
+        "achievement": "Strengthened my core logic and front-end performance skills. Developed fluid visual tools, demonstrating consistency and a deep understanding of the native language.",
+        "image": "/imagenes/miniaturasProyectos/JS30Miniatura.png",
+        "demoUrl": "https://github.com/DanilsMIT/Java-30-days-challenge.git",
+        "repoUrl": "https://github.com/DanilsMIT/Java-30-days-challenge.git",
+        "technologies": [
+          "JavaScript",
+          "DOM Manipulation",
+          "Event Handling",
+          "REST API",
+          "CSS3",
+          "HTML5",
+          "OOP"
+        ],
+        "buttons": {
+          "repo": "Source Code",
+          "demo": "Live Demo"
+        }
+      },
+      {
+        "title": "Around the US Web App",
+        "description": "Interactive web application for sharing and managing photo cards, developed progressively from a vanilla codebase to a scalable architecture.",
+        "achievement": "Successfully refactored the initial code applying classes and promises. Connected the frontend to an external API to ensure real-time dynamic data updates.",
+        "image": "/imagenes/miniaturasProyectos/aroundUSMiniatura.png",
+        "demoUrl": "https://danilsmit.github.io/web_project_around_es/",
+        "repoUrl": "https://github.com/DanilsMIT/web_project_around_es.git",
+        "technologies": ["JavaScript", "OOP", "REST API", "HTML5", "CSS3"],
+        "buttons": {
+          "repo": "Source Code",
+          "demo": "Live Demo"
+        }
+      }
+    ]
+  },
+  "footer": {
+    "dev_by": "Developed by Danilo Isaac",
+    "location": "USA | Latin America | Ecuador",
+    "repo_link": "Portfolio Repository"
+  }
+}
