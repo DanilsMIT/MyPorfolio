@@ -20,11 +20,13 @@
   },
   "projects": {
     "section_title": "Featured Projects",
+    "challenge_label": "Challenge ⚔️ : ",
+    "achievement_label": "✦ Achievement: ",
     "list": [
       {
         "title": "News Explorer Full Stack",
-        "description": "Interactive news explorer that allows users to search for recent articles via a third-party API, register a personal account, and manage their favorite news in a cloud database.",
-        "achievement": "Developed the complete project architecture. Built a custom REST API with Node.js and Express, implementing secure authentication using JWT and MongoDB. On the frontend, I used React and Vite handling global states and protected routes, successfully deploying both environments to production using Vercel and Render.",
+        "description": "Create a platform where users can search for real-time news and securely save their favorites, requiring seamless integration between an external API and a custom database.",
+        "achievement": "Designed a Node.js and Express architecture, securing critical routes with JWT and Helmet. Delivered a highly scalable, secure product with active DDoS and brute force attack prevention.",
         "image": "/imagenes/miniaturasProyectos/newsExplorerMiniatura.png",
         "demoUrl": "https://news-explorer-psi.vercel.app",
         "repoUrl": "https://github.com/DanilsMIT/news-explorer-frontend",
@@ -44,8 +46,8 @@
       },
       {
         "title": "Around the US Web App (React)",
-        "description": "Refactored React version of the interactive platform for sharing and managing photo cards, structured with a functional component-based architecture.",
-        "achievement": "Migrated the original pure JavaScript project to React using Vite. Implemented hooks for state and UI management, maintaining seamless integration with an external REST API without the need for additional routers.",
+        "description": "Modernize a static legacy application into a dynamic and interactive platform allowing users to share and manage photo cards via an external server.",
+        "achievement": "Migrated the architecture to React.js using Vite and Hooks, connecting asynchronously with an external REST API, significantly improving code maintainability and scalability.",
         "image": "/imagenes/miniaturasProyectos/aroundReactMiniatura.png",
         "demoUrl": "https://danilsmit.github.io/web_project_around_react/",
         "repoUrl": "https://github.com/DanilsMIT/web_project_around_react.git",
@@ -64,8 +66,8 @@
       },
       {
         "title": "AquaPaw Web",
-        "description": "Interactive landing page developed for the presentation and promotion of a tech product, focused on delivering an immersive user experience.",
-        "achievement": "Implemented advanced animations and ultra-smooth scrolling by integrating GSAP and Lenis libraries, achieving modern navigation with high visual impact.",
+        "description": "Design and develop an interactive landing page that captures the user's attention instantly for the immersive presentation of a tech product.",
+        "achievement": "Integrated GSAP for physics-based animations and Lenis for smooth scrolling, efficiently manipulating the DOM. Achieved immersive, fluid, high-impact visual navigation maintaining a constant 60fps.",
         "image": "/imagenes/miniaturasProyectos/aquaPawMiniatura.png",
         "demoUrl": "https://danilsmit.github.io/AquaPawWeb/",
         "repoUrl": "https://github.com/DanilsMIT/AquaPawWeb",
@@ -77,8 +79,8 @@
       },
       {
         "title": "Visual Inventory Management System",
-        "description": "Full-stack web interface custom-designed for a local business ('La Casa del Cielo Raso'), aimed at streamlining product location, tracking, and updating in the warehouse via a cloud database.",
-        "achievement": "Digitized the inventory by integrating a REST API with Firebase Realtime Database for data management and synchronization (CRUD). Designed a UX-centric solution, implementing an interactive pop-up that enlarges product photos to facilitate physical recognition in-store.",
+        "description": "Streamline the location, tracking, and updating of products in the warehouse, overcoming traditional logistical bottlenecks.",
+        "achievement": "Digitized the inventory by integrating Firebase Realtime Database and designed a UX-centric interface with visual recognition, optimizing logistics and physical stock control times.",
         "image": "/imagenes/miniaturasProyectos/LCSRMiniatura.png",
         "demoUrl": "https://danilsmit.github.io/LCSR-Inventory/",
         "repoUrl": "https://github.com/DanilsMIT/LCSR-Inventory.git",
@@ -97,8 +99,8 @@
       },
       {
         "title": "JavaScript 30 Days",
-        "description": "Built 30 dynamic and interactive web mini-applications in 30 days, focused on full mastery of the browser ecosystem without relying on external libraries.",
-        "achievement": "Strengthened my core logic and front-end performance skills. Developed fluid visual tools, demonstrating consistency and a deep understanding of the native language.",
+        "description": "Master the native browser ecosystem by building 30 dynamic mini-applications in 30 days without relying on external libraries.",
+        "achievement": "Extensively used Vanilla JavaScript, advanced DOM manipulation, and event logic to develop visual tools, strengthening core logic and delivering highly optimized native code.",
         "image": "/imagenes/miniaturasProyectos/JS30Miniatura.png",
         "demoUrl": "https://github.com/DanilsMIT/Java-30-days-challenge.git",
         "repoUrl": "https://github.com/DanilsMIT/Java-30-days-challenge.git",
@@ -118,8 +120,8 @@
       },
       {
         "title": "Around the US Web App",
-        "description": "Interactive web application for sharing and managing photo cards, developed progressively from a vanilla codebase to a scalable architecture.",
-        "achievement": "Successfully refactored the initial code applying classes and promises. Connected the frontend to an external API to ensure real-time dynamic data updates.",
+        "description": "Develop an interactive application from scratch using pure code to understand the fundamentals of web architecture and asynchronous manipulation.",
+        "achievement": "Refactored using Object-Oriented Programming (OOP) and promises, connecting the frontend to an external API to achieve real-time dynamic data updates.",
         "image": "/imagenes/miniaturasProyectos/aroundUSMiniatura.png",
         "demoUrl": "https://danilsmit.github.io/web_project_around_es/",
         "repoUrl": "https://github.com/DanilsMIT/web_project_around_es.git",

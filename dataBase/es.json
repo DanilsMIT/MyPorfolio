@@ -20,11 +20,13 @@
   },
   "projects": {
     "section_title": "Proyectos Destacados",
+    "challenge_label": "Desafío ⚔️ : ",
+    "achievement_label": "✦ Logro: ",
     "list": [
       {
         "title": "News Explorer Full Stack",
-        "description": "Explorador interactivo de noticias que permite a los usuarios buscar artículos recientes mediante una API de terceros, registrar una cuenta personal y gestionar sus noticias favoritas en una base de datos en la nube.",
-        "achievement": "Desarrollé la arquitectura completa del proyecto. Construí una API REST propia con Node.js y Express, implementando autenticación segura mediante JWT y MongoDB. En el frontend, utilicé React y Vite manejando estados globales y rutas protegidas, logrando el despliegue a producción de ambos entornos usando Vercel y Render.",
+        "description": "Crear una plataforma donde los usuarios puedan buscar noticias en tiempo real y guardar sus favoritas de forma segura, requiriendo una integración fluida entre una API externa y una base de datos propia.",
+        "achievement": "Diseñé una arquitectura en Node.js y Express, asegurando rutas críticas con JWT y Helmet. Entregué un producto funcional, seguro y escalable con prevención activa de ataques DDoS y fuerza bruta.",
         "image": "/imagenes/miniaturasProyectos/newsExplorerMiniatura.png",
         "demoUrl": "https://news-explorer-psi.vercel.app",
         "repoUrl": "https://github.com/DanilsMIT/news-explorer-frontend",
@@ -44,8 +46,8 @@
       },
       {
         "title": "Aplicación Web Around the US (React)",
-        "description": "Versión refactorizada en React de la plataforma interactiva para compartir y gestionar tarjetas fotográficas, estructurada con una arquitectura basada en componentes funcionales.",
-        "achievement": "Migré el proyecto original de JavaScript puro a React utilizando Vite. Implementé hooks para la gestión del estado y la interfaz de usuario, manteniendo la integración fluida con una API REST externa sin necesidad de enrutadores adicionales.",
+        "description": "Modernizar una aplicación legacy estática hacia una plataforma dinámica e interactiva que permita a los usuarios compartir y gestionar tarjetas fotográficas conectándose a un servidor externo.",
+        "achievement": "Migré la arquitectura a React.js usando Vite y Hooks, conectando asíncronamente con una API REST externa. Logré una mejora significativa en la mantenibilidad, modularidad y escalabilidad del código base.",
         "image": "/imagenes/miniaturasProyectos/aroundReactMiniatura.png",
         "demoUrl": "https://danilsmit.github.io/web_project_around_react/",
         "repoUrl": "https://github.com/DanilsMIT/web_project_around_react.git",
@@ -64,8 +66,8 @@
       },
       {
         "title": "AquaPaw Web",
-        "description": "Landing page interactiva desarrollada para la presentación y promoción de un producto tecnológico, enfocada en brindar una experiencia de usuario inmersiva.",
-        "achievement": "Implementé animaciones avanzadas y un scroll ultra suave integrando las librerías GSAP y Lenis, logrando una navegación moderna y de alto impacto visual.",
+        "description": "Diseñar y desarrollar una landing page interactiva que capture la atención del usuario desde el primer segundo para la presentación inmersiva de un producto tecnológico.",
+        "achievement": "Integré GSAP para animaciones basadas en físicas y Lenis para controlar el scroll, manipulando eficientemente el DOM. Logré una navegación inmersiva y de alto impacto visual manteniendo 60fps constantes.",
         "image": "/imagenes/miniaturasProyectos/aquaPawMiniatura.png",
         "demoUrl": "https://danilsmit.github.io/AquaPawWeb/",
         "repoUrl": "https://github.com/DanilsMIT/AquaPawWeb",
@@ -77,8 +79,8 @@
       },
       {
         "title": "Sistema de Gestión Visual de Inventario",
-        "description": "Interfaz web full-stack diseñada específicamente para el negocio local 'La Casa del Cielo Raso', orientada a agilizar la localización, control y actualización de productos en el almacén mediante una base de datos en la nube.",
-        "achievement": "Digitalicé el inventario integrando una API REST con Firebase Realtime Database para el manejo y sincronización de datos (CRUD). Además, diseñé una solución centrada en la experiencia de usuario, implementando un PopUp interactivo que amplía la fotografía de cada elemento para facilitar su reconocimiento físico en el local.",
+        "description": "Agilizar la localización, control y actualización de productos en el almacén de 'La Casa del Cielo Raso' superando los cuellos de botella logísticos tradicionales.",
+        "achievement": "Digitalicé el inventario integrando Firebase Realtime Database y diseñé una interfaz centrada en UX con reconocimiento visual interactivo, optimizando los tiempos de logística y control de stock físico.",
         "image": "/imagenes/miniaturasProyectos/LCSRMiniatura.png",
         "demoUrl": "https://danilsmit.github.io/LCSR-Inventory/",
         "repoUrl": "https://github.com/DanilsMIT/LCSR-Inventory.git",
@@ -97,8 +99,8 @@
       },
       {
         "title": "JavaScript 30 Days",
-        "description": "Construcción de 30 mini-aplicaciones web dinámicas e interactivas en 30 días, enfocadas en el dominio completo del ecosistema del navegador sin depender de librerías externas.",
-        "achievement": "Fortalecí mis bases lógicas y de rendimiento front-end. Desarrollé herramientas visuales fluidas, demostrando constancia y un profundo entendimiento del lenguaje nativo.",
+        "description": "Dominar el ecosistema nativo del navegador construyendo 30 mini-aplicaciones dinámicas en 30 días sin depender de librerías externas.",
+        "achievement": "Utilicé Vanilla JavaScript, manipulación avanzada del DOM y lógica de eventos para desarrollar herramientas visuales, fortaleciendo mis bases lógicas y entregando código nativo altamente optimizado.",
         "image": "/imagenes/miniaturasProyectos/JS30Miniatura.png",
         "demoUrl": "https://github.com/DanilsMIT/Java-30-days-challenge.git",
         "repoUrl": "https://github.com/DanilsMIT/Java-30-days-challenge.git",
@@ -118,8 +120,8 @@
       },
       {
         "title": "Aplicación Web Around the US",
-        "description": "Aplicación Web interactiva para compartir y gestionar tarjetas fotográficas, desarrollada de forma progresiva desde una base de código puro hasta una arquitectura escalable.",
-        "achievement": "Refactoricé con éxito el código inicial aplicando clases y promesas. Conecté el frontend con una API externa para asegurar la actualización de datos dinámicos en tiempo real.",
+        "description": "Desarrollar una aplicación interactiva desde cero mediante código puro para comprender las bases de la arquitectura web y la manipulación asíncrona.",
+        "achievement": "Refactoricé el código aplicando Programación Orientada a Objetos (POO) y promesas, conectando el frontend con una API externa para lograr la actualización de datos dinámicos en tiempo real.",
         "image": "/imagenes/miniaturasProyectos/aroundUSMiniatura.png",
         "demoUrl": "https://danilsmit.github.io/web_project_around_es/",
         "repoUrl": "https://github.com/DanilsMIT/web_project_around_es.git",

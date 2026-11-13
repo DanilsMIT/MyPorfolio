@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 export default function Projects() {
   const { t } = useTranslation();
 
-  // Extraemos el arreglo de proyectos desde el JSON (returnObjects permite extraer arrays)
   const proyectos = t("projects.list", { returnObjects: true });
 
   return (
@@ -30,11 +29,14 @@ export default function Projects() {
 
             <div className="card__content">
               <h3 className="card__title">{proyecto.title}</h3>
-              <p className="card__desc">{proyecto.description}</p>
+
+              <p className="card__desc">
+                <strong>{t("projects.challenge_label")}</strong>{" "}
+                {proyecto.description}
+              </p>
+
               <p className="card__achievement">
-                <strong>
-                  {t("projects.achievement_label", "Logro / Achievement:")}
-                </strong>{" "}
+                <strong>{t("projects.achievement_label")}</strong>{" "}
                 {proyecto.achievement}
               </p>
 
